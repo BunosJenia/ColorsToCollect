@@ -186,7 +186,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
     }
     
     func spawnFallingBlock() {
-        let maxPossibleX = Int(self.frame.size.width/2) - 50
+        let maxPossibleX = Int(self.frame.size.width/2) - 100
         let randomX = Int.random(in: -maxPossibleX ..< maxPossibleX)
         let colorOfBlock = Int.random(in: 0..<3)
         
